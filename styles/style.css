@@ -1,0 +1,202 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+:root {
+    --bg-color: #141414;
+    --menu-color: #c8c7c8;
+    --hover: #989898;
+    --color: white;
+    --bottun: #797a7d;
+}
+
+body {
+    background-color: var(--bg-color);
+    font-family: sans-serif;
+    color: var(--color);
+}
+
+header {
+    display: flex;
+    width: 95%;
+    height: 60px;
+    align-items: center;
+    justify-content: start;
+    margin: auto;
+    background-color: #141414;
+}
+
+header .logo-header{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 40vh;
+}
+
+header .logo-header img {
+    width: 30vh;
+}
+
+header .navegacao {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.bar a {
+    color: var(--menu-color);
+    margin-right: 15px;
+    font-size: 15px;
+}
+
+.bar a:hover {
+    color: var(--hover);
+}
+
+#item-1, #item-2, #item-3, #item-4 {
+    color: var(--color);
+}
+
+.painel {
+    color: var(--color);
+    font-size: 20px;
+}
+
+#bell {
+    margin-left: 20px;
+}
+
+/* Imagem de Destaque */
+
+.destaque {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    background-image: url("../img/bg-3.png");
+    background-size: cover;
+}
+
+.container {
+    width: 100vh;
+    margin-left: 50px;
+    text-align: justify;
+    margin-top: -30px;
+}
+
+.container h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.container p {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+#Tempo {
+    color: rgba(198, 203, 221, 0.842);
+    font-weight: bold;
+}
+
+.button {
+    padding: 12px 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 5vh;
+}
+
+#ouvir:hover {
+    background-color: rgba(255, 255, 255, 0.603);
+}
+
+#info {
+    margin-left: 5vh;
+    background-color: rgba(173, 173, 173, 0.582);
+    color: white;
+}
+
+#info:hover {
+    background-color: rgba(173, 173, 173, 0.349);
+}
+
+.fas {
+    margin-right: 5px;
+}
+
+.content {
+    margin-top: -80PX;
+    margin-left: 50PX;
+}
+
+.content img {
+    border-radius: 15Px;
+    margin-right: 10PX;
+    margin-bottom: 30px;
+}
+
+.content h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.slide {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.slide-content {
+    display: flex;
+}
+
+footer {
+    width: 100%;
+    height: 20vh;
+}
+
+.esclarecimento {
+    width: 80%;
+    margin: auto;
+}
+
+.esclarecimento p {
+    text-align: center;
+    font-size: 20px;
+    margin: 50px 0;
+}
+
+.esclarecimento a {
+    text-decoration: none;
+    color: white;
+}
+
+.esclarecimento a:hover {
+    color: rgba(255, 255, 255, 0.562);
+}
+
+.Contatos {
+    width: 20%;
+    text-align: center;
+    margin: auto;
+}
+
+.Contatos i {
+    font-size: 25px;
+    margin-bottom: 30px;
+    color: rgba(255, 255, 255, 0.829);
+}
+
+.Contatos i:hover {
+    color: rgba(255, 255, 255, 0.473);
+}
+
+#github {
+    margin-right: 15px;
+}
