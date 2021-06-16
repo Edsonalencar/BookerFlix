@@ -128,7 +128,7 @@ header .navegacao {
 
 .content {
     margin-top: -80px;
-    margin-left: 50px;
+    margin-left: 15px;
 }
 
 .titulos h2 {
@@ -144,46 +144,40 @@ header .navegacao {
 }
 
 footer {
-    width: 100%;
-    height: 20vh;
+    margin-top: 50px;
 }
-
-.esclarecimento {
-    width: 80%;
-    margin: auto;
-}
-
 .esclarecimento p {
+   
+    margin: auto;
     text-align: center;
-    font-size: 2vh;
-    margin: 50px 0;
+    font-size: 15px;
 }
 
 .esclarecimento a {
-    text-decoration: none;
-    color: white;
+    color: var(--color);
 }
 
 .esclarecimento a:hover {
-    color: rgba(255, 255, 255, 0.562);
+    color: var(--hover);
 }
 
-.Contatos {
-    width: 20%;
-    text-align: center;
-    margin: auto;
+.contatos {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
 }
 
-.Contatos i {
+.contatos a {
     font-size: 25px;
-    margin-bottom: 30px;
-    color: rgba(255, 255, 255, 0.829);
+    color: var(--color);
 }
 
-.Contatos i:hover {
-    color: rgba(255, 255, 255, 0.473);
+.contatos a:hover {
+    color: var(--hover);
 }
 
 #github {
-    margin-right: 15px;
+    margin-right: 20px;
 }

@@ -1,5 +1,12 @@
-@media (max-width: 670px) {
-    
+@media (max-width: 890px) {
+    .destaque {
+        height: 65vh;
+    }
+
+    .content {
+        margin-top: -60px;
+    }
+
     .container h1, p {
         width: 80%;
     }
@@ -9,7 +16,37 @@
     }
 
     .container p {
-        font-size: 18px;
+        font-size: 17px;
+    }
+}
+
+
+
+@media (max-width: 670px) {
+
+    .content {
+        margin-top: 1px;
+    }
+    
+    .container {
+
+        margin-top: 20px;
+    }
+
+    .container h1, p {
+        width: 60%;
+    }
+
+    .destaque {
+        height: 50vh;
+    }
+
+    .container h1 {
+        font-size: 25px;
+    }
+
+    .container p {
+        font-size: 15px;
     }
 
     .button, .fas {
@@ -37,19 +74,35 @@
 
 @media (max-width: 500px) {
 
+    container h1, p {
+        width: 65%;
+    }
+
     .button, .fas {
         font-size: 12px;
     }
 
 }
 
-@media (max-width: 460px) {
+@media (max-width: 450px) {
+
+    .destaque {
+        height: 40vh;
+    }
+
+    .container h1, p {
+        width: 60%;
+    }
 
     .container h1 {
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .container p {
-        font-size: 15px;
+        font-size: 13px;
+    }
+
+    .button {
+        margin-top: 10px;
     }
 }
