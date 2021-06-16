@@ -1,0 +1,55 @@
+@media (max-width: 670px) {
+    
+    .container h1, p {
+        width: 80%;
+    }
+
+    .container h1 {
+        font-size: 35px;
+    }
+
+    .container p {
+        font-size: 18px;
+    }
+
+    .button, .fas {
+        font-size: 15px;
+    }
+
+    header {
+        justify-content: center;
+        flex-direction: column;
+        height: 90px;
+    }
+    
+    header .logo-header{
+        justify-content: center;
+        width: 100%;
+        margin-top: 5px;
+    }
+    
+    header .navegacao {
+        margin-top: 5px;
+        justify-content: center;
+        width: 100%;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .button, .fas {
+        font-size: 12px;
+    }
+
+}
+
+@media (max-width: 460px) {
+
+    .container h1 {
+        font-size: 25px;
+    }
+
+    .container p {
+        font-size: 15px;
+    }
+}
